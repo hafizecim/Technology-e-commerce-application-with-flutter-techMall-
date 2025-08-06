@@ -36,50 +36,55 @@ class _SplashViewState extends State<SplashView> {
             ),
             SizedBox(height: 50), // ↕️ Boşluk
             // ✨ Animasyonlu slogan (Tech sabit, ikinci kelime kayan)
-            Container(
-              width: 300, // 🛡️ Sabit genişlik
-              height: 50, // 🛡️ Sabit yükseklik
-              alignment: Alignment.center,
-              child: Row(
-                mainAxisSize: MainAxisSize.min,
-                children: [
-                  // 🅰️ Sabit kelime
-                  Text(
-                    'Tech',
+            buildAnimatedSlogan(),
+          ],
+        ),
+      ),
+    );
+  }
+
+ // 🔹 Method: Animasyonlu slogan
+  Container buildAnimatedSlogan() {
+    return Container(
+            width: 300, // 🛡️ Sabit genişlik
+            height: 50, // 🛡️ Sabit yükseklik
+            alignment: Alignment.center,
+            child: Row(
+              mainAxisSize: MainAxisSize.min,
+              children: [
+                // 🅰️ Sabit kelime
+                Text(
+                  'Tech',
+                  style: TextStyle(
+                    fontSize: 32,
+                    color: Colors.white,
+                    fontWeight: FontWeight.bold,
+                  ),
+                ),
+                SizedBox(width: 10), // ➡️ Arada boşluk
+                // 🔄 Kayan kelimeler
+                Container(
+                  width: 150, // 🔒 Sabit genişlik
+                  height: 120,
+                  child: DefaultTextStyle(
                     style: TextStyle(
                       fontSize: 32,
                       color: Colors.white,
                       fontWeight: FontWeight.bold,
                     ),
-                  ),
-                  SizedBox(width: 10), // ➡️ Arada boşluk
-                  // 🔄 Kayan kelimeler
-                  Container(
-                    width: 150, // 🔒 Sabit genişlik
-                    height: 120,
-                    child: DefaultTextStyle(
-                      style: TextStyle(
-                        fontSize: 32,
-                        color: Colors.white,
-                        fontWeight: FontWeight.bold,
-                      ),
-                      child: AnimatedTextKit(
-                        animatedTexts: [
-                          RotateAnimatedText('Build'),
-                          RotateAnimatedText('Innovate'),
-                          RotateAnimatedText('Create'),
-                          RotateAnimatedText('Explore'),
-                        ],
-                        repeatForever: true, // 🔁 Sonsuz tekrar
-                      ),
+                    child: AnimatedTextKit(
+                      animatedTexts: [
+                        RotateAnimatedText('Build'),
+                        RotateAnimatedText('Innovate'),
+                        RotateAnimatedText('Create'),
+                        RotateAnimatedText('Explore'),
+                      ],
+                      repeatForever: true, // 🔁 Sonsuz tekrar
                     ),
                   ),
-                ],
-              ),
+                ),
+              ],
             ),
-          ],
-        ),
-      ),
-    );
+          );
   }
 }
