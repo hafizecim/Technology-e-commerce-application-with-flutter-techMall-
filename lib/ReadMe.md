@@ -97,8 +97,9 @@ Uygulama, teknolojik ürünlerin satışını yapmak amacıyla tasarlanmıştır
 - `flutter_product_card` → Ürün kartlarını göstermek için
 - `carousel_slider` → Slider / carousel için
 - `comment_tree` → Mesaj ve yorum yapıları için
-- `material_floating_search_bar_2` → Arama çubuğu
+- `super_cupertino_navigation_bar` → Arama çubuğu
 - `animated_text_kit` → Animasyonlu metinler (Favoriler sayfasında kullanılacak)
+- `badges` → 
 ---
 
 ## 🚀 Proje Hedefi
