@@ -171,9 +171,9 @@ class _HomeViewState extends State<HomeView> {
       ),
       items:
           [
-            'https://graphicsfamily.com/wp-content/uploads/edd/2023/06/E-commerce-Website-Product-Banner-Design-scaled.jpg',
+            'https://i.ytimg.com/vi/yt3hzn0xrls/hq720.jpg?sqp=-oaymwEhCK4FEIIDSFryq4qpAxMIARUAAAAAGAElAADIQj0AgKJD&rs=AOn4CLAGfviqC6WHXGMqX2TdtR0SFeYbzw',
             'https://i.ytimg.com/vi/x1hx2eA9WTs/hq720.jpg?sqp=-oaymwEhCK4FEIIDSFryq4qpAxMIARUAAAAAGAElAADIQj0AgKJD&rs=AOn4CLDhiiU9EAlx4YCfQQj85l-JBz4tSQ',
-            'https://img.freepik.com/free-vector/realistic-cyber-monday-sale-horizontal-banner_23-2149109880.jpg?semt=ais_hybrid&w=740',
+            'https://i.ytimg.com/vi/a8hunzlbOUw/hq720.jpg?sqp=-oaymwEhCK4FEIIDSFryq4qpAxMIARUAAAAAGAElAADIQj0AgKJD&rs=AOn4CLDpZ7atlu47H9ZCMuozrSvYBb9kVA',
           ].map((imageUrl) {
             return Builder(
               builder: (BuildContext context) {

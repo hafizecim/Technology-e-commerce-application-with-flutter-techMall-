@@ -4,12 +4,12 @@ final List<ProductModel> dummyProducts = [
   ProductModel(
     id: '2',
     categoryId : '2',
-    imageUrl: 'https://www.casper.com.tr/uploads/2025/01/15_op.webp',
+    imageUrl: 'https://assets.mmsrg.com/isr/166325/c1/-/ASSET_MMS_144941045/fee_786_587_png',
     categoryName: 'Bilgisayar',
     productName: 'Laptop',
     price: 15000.0,
     currency: '\₺',
-    shortDescription: 'Yüksek performanslı dizüstü bilgisayar',
+    shortDescription: 'Yüksek performanslı bilgisayar',
     discountPercentage: 35.0,
     
   ),
@@ -30,7 +30,7 @@ final List<ProductModel> dummyProducts = [
   ProductModel( 
     categoryId : '4',
     id: '4',
-    imageUrl: 'https://bireysel.turktelekom.com.tr/tt-cihazlar/PublishingImages/akilli-telefon/apple/iphone13-blue.webp',
+    imageUrl: 'https://cdn.dsmcdn.com/mnresize/420/620/ty1631/prod/QC/20250125/09/ed5bedf1-1b23-3716-804b-774342833ef5/1_org.jpg',
     categoryName: 'Telefon',
     productName: 'Telefon',
     price: 7000.0,
